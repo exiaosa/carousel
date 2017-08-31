@@ -1,0 +1,17 @@
+{
+  "name": "slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jenny Ren",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-dependencies": "^0.1.1",
+    "gulp-npm-dist": "^0.1.4",
+    "gulp-sass": "^3.1.0"
+  }
+}
