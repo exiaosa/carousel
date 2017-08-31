@@ -7,6 +7,6 @@ setting:
 "imageHeight": 450,  
 "scale": 0.8,  
 "speed": 500,  	
-"verticalAlign": "middle",  (top/middle/bottom)
+"verticalAlign": "middle",  (top/middle/bottom)  
 "autoPlay": true,  (true/false)  
 "delay": 2000  
