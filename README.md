@@ -8,5 +8,5 @@ setting:
 "scale": 0.8,  
 "speed": 500,  	
 "verticalAlign": "middle",  (top/middle/bottom)
-"autoPlay": true,  (true/false)
+"autoPlay": true,  (true/false)  
 "delay": 2000  
