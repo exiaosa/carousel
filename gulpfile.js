@@ -9,3 +9,8 @@ gulp.task('sass', function() {
 		.pipe(gulp.dest('app/css'))
 });
 
+// Copy dependencies to ./public/libs/
+gulp.task('copy-npm-dependencies', function() {
+  gulp.src(npmDist(), {base:'./node_modules'})
+    .pipe(gulp.dest('./public/libs'));
+});

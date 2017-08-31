@@ -12,6 +12,7 @@
     "gulp": "^3.9.1",
     "gulp-dependencies": "^0.1.1",
     "gulp-npm-dist": "^0.1.4",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
