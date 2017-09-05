@@ -1,4 +1,5 @@
 "# carousel"   
+gh-page: https://exiaosa.github.io/carousel/    
 
 setting:  
 "width": 800,  
