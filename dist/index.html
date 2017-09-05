@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Slider</title>
+    <link rel='stylesheet' href='assets/style.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/main.js"></script>
+</head>
+
+<body>
+    <div class="JPoster poster-main" data-setting='{
+		"width": 800,
+		"height": 450,
+		"imageWidth": 600,
+		"imageHeight": 450,
+		"scale": 0.9,
+		"speed": 500,	
+		"verticalAlign": "top",
+		"autoPlay": true,
+		"delay": 1000
+	}'>
+		<div class="poster-btn poster-prev-btn"></div>
+		<ul class="poster-list">
+			<li class="poster-item"><a href="#"><img src="assets/1.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/2.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/3.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/4.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/5.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/6.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/7.jpg" width="100%"></a></li>
+			
+		</ul>
+		<div class="poster-btn poster-next-btn"></div>
+	</div>
+	
+	<div class="JPoster poster-main" data-setting='{
+		"width": 1000,
+		"height": 450,
+		"imageWidth": 600,
+		"imageHeight": 450,
+		"scale": 0.8,
+		"speed": 500,	
+		"verticalAlign": "middle",
+		"autoPlay": false,
+		"delay": 2000
+	}'>
+		<div class="poster-btn poster-prev-btn"></div>
+		<ul class="poster-list">
+			<li class="poster-item"><a href="#"><img src="assets/1.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/2.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/3.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/4.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/5.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/6.jpg" width="100%"></a></li>
+			
+			
+		</ul>
+		<div class="poster-btn poster-next-btn"></div>
+	</div>
+	
+	<div class="JPoster poster-main" data-setting='{
+		"width": 900,
+		"height": 450,
+		"imageWidth": 600,
+		"imageHeight": 450,
+		"scale": 0.8,
+		"speed": 500,	
+		"verticalAlign": "bottom",
+		"autoPlay": true,
+		"delay": 2000
+	}'>
+		<div class="poster-btn poster-prev-btn"></div>
+		<ul class="poster-list">
+			<li class="poster-item"><a href="#"><img src="assets/1.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/2.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/3.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/4.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/5.jpg" width="100%"></a></li>
+			<li class="poster-item"><a href="#"><img src="assets/6.jpg" width="100%"></a></li>
+			
+			
+		</ul>
+		<div class="poster-btn poster-next-btn"></div>
+	</div>
+</body>
+
+<script>
+$(function(){
+	Carousel.init($(".JPoster"));
+});
+</script>
+
+</html>
